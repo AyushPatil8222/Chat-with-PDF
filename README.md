@@ -1,26 +1,26 @@
-# 🧾 DocuDiscuss: Chat with PDF
+# 🧾 Chat with PDF
 
-DocuDiscuss is an interactive Streamlit app that lets you upload PDF documents and chat with them using Google's Gemini Pro AI. Simply upload your PDFs, and ask questions in natural language — the app extracts relevant information from your documents and provides detailed answers.
+Chat with PDF is an interactive Streamlit app that allows you to upload PDF documents and have a conversation with them using Google's Gemini Pro AI. Upload your PDFs, ask natural language questions, and get detailed answers based on the content of your documents.
 
 ---
 
 ## 🚀 Features
 
-- 📄 Upload one or more PDF files to process their content
-- 🔍 Extract and split PDF text into manageable chunks for better context handling
-- 🤖 Use Gemini Pro (Google Generative AI) to answer questions based on your PDFs
-- 💬 Chat interface powered by Streamlit for real-time interaction
-- 📚 Stores vector embeddings locally with FAISS for efficient similarity search
-- 🧠 Provides detailed, context-aware answers or informs if the answer is unavailable in the documents
+- 📄 Upload single or multiple PDF files easily  
+- 🔍 Extract and split PDF text into smaller chunks for better understanding  
+- 🤖 Leverage Gemini Pro (Google Generative AI) to answer your questions accurately  
+- 💬 Real-time chat interface powered by Streamlit  
+- 📚 Use FAISS vector search for fast and efficient retrieval of relevant text  
+- 🧠 Provides detailed answers or informs if the answer is not found in your PDFs
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Streamlit** – Easy-to-use web app framework for Python  
-- **Google Generative AI (Gemini Pro)** – Advanced LLM for natural language understanding  
-- **PyPDF2** – PDF text extraction  
-- **LangChain** – For text splitting, chaining, and vector store integration  
-- **FAISS** – Fast vector similarity search library  
-- **Python-dotenv** – Manage environment variables securely
+- **Streamlit** – Web app framework for quick deployment  
+- **Google Generative AI (Gemini Pro)** – State-of-the-art language model  
+- **PyPDF2** – Extract text from PDF files  
+- **LangChain** – For text splitting and managing chains of prompts  
+- **FAISS** – Vector similarity search engine  
+- **Python-dotenv** – Manage environment variables for API keys
 
